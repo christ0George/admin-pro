@@ -59,15 +59,15 @@ const Carsedit = (props) => {
     }
     </TextField> <br /><br />
     <TextField label="Company" type="text" name="company" value={inputs.company} onChange={(event) => inputHandler (event)}/><br /><br />
-      <TextField label="MRP" type="text" name="model" value={inputs.model} onChange={(event) => inputHandler (event)}/> <br /><br />
-      <TextField label="MRP" type="text" name="no" value={inputs.no} onChange={(event) => inputHandler (event)}/> <br /><br />
-      <TextField label="MRP" type="text" name="color" value={inputs.color} onChange={(event) => inputHandler (event)}/> <br /><br />
+      <TextField label="model" type="text" name="model" value={inputs.model} onChange={(event) => inputHandler (event)}/> <br /><br />
+      <TextField label="vehicle no" type="text" name="no" value={inputs.no} onChange={(event) => inputHandler (event)}/> <br /><br />
+      <TextField label="color" type="text" name="color" value={inputs.color} onChange={(event) => inputHandler (event)}/> <br /><br />
       <Select label="Fuel" name="fuel" value={inputs.fuel}onChange={inputHandler}>
         <MenuItem value="Petrol">Petrol</MenuItem>
             <MenuItem value="Diesel">Diesel</MenuItem>
             <MenuItem value="CNG">CNG</MenuItem>
       </Select><br /><br />
-      <TextField label="MRP" type="text" name="amount" value={inputs.amount} onChange={(event) => inputHandler (event)}/> <br /><br />
+      <TextField label="rent per day" type="text" name="amount" value={inputs.amount} onChange={(event) => inputHandler (event)}/> <br /><br />
       <TextField label="Description" type="text" name="description" value={inputs.description} onChange={(event) => inputHandler (event)}/> <br /><br />
 {/* </FormControl><br/><br/> */}
   <Button variant="contained" onClick={addHandler} >Update</Button>

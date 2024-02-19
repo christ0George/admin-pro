@@ -24,7 +24,7 @@ import Footer from './components/footer/Footer';
       <Routes>
         <Route path={'/'}element={<Login/>}></Route>
         <Route path={'/Home'}element={<Home />}></Route>
-        <Route path={'/viewdetails'}element={<Cardetails method='get'/>}></Route>
+        {/* <Route path={'/viewdetails'}element={<Cardetails method='get'/>}></Route> */}
         <Route path={'/sview'}element={<Cardetails method='get'/>}></Route>
         
        {/* <Route path='/s'element={<Subcategory method='post'/>}/> */}

@@ -44,7 +44,7 @@ app.post('/cnew',(request,response)=>{
     response.send("Record Successfully Saved")
 
 })
-app.get("/categoryview",async(request,response)=>{
+app.get("/view",async(request,response)=>{
     var data=await carmodel.find();
     response.send(data);
 });

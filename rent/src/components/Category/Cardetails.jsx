@@ -45,7 +45,7 @@ const Cardetails = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {Carz.map((row, pos) => {
+            {category.map((row, pos) => {
 
               return (
                 <TableRow
